@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Forms</title>
+</head>
+<body>
+ <h1>My Forms</h1>
+ <p>There are around 22 types with input fields of form</p>
+ <p>There 2 methods of forms 1-GET & 2-POST </p>
+ <hr>
+ <form action=""  method="GET" >
+  <label for="">Username</label>
+  <input type="text" required placeholder="Enter your username" name="uname">
+  <br>
+  <br>
+  <label for="pass">Password</label>
+  <input type="password" required placeholder="Enter your secret key" name="pass">
+  <br>
+  <br>
+  <label for="cnic">CNIC</label>
+  <input type="number" required placeholder="CNIC number" name="cnic">
+  <br><br>
+  <p>What is your gender?</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio"  id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <br><br>
+  <p>Tick mark your favourite Countrie from the list below</p>
+  <input type="checkbox" value="Pakistan" name="pakistan" id="p">
+   <label for="p">Pakistan</label>
+  <input type="checkbox" value="iran" name="iran" id="i"> 
+  <label for="i">Iran</label>
+  <input type="checkbox" value="Iraq" name="iraq" id="i"> 
+  <label for="i">Iraq</label>
+  <br><br>
+  <select name="courses" id="course">
+   <option value="" disabled selected>Choose Your Field</option>
+    <option value="web">Web Development</option>
+    <option value="app">App Development</option>
+    <option value="gd">Graphic Design</option>
+    <option value="ai">Artifical Intelligence</option>
+    <option value="ds">Data Science</option>
+
+  </select>
+ <br><br>
+  <input type="submit" value="Login">
+ </form>
+</body>
+</html>

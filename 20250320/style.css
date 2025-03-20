@@ -1,0 +1,11 @@
+h1{
+    color: gray;
+
+}
+span{
+    color: red;
+}
+p{
+    background-image: url("https://picsum.photos/1000");
+    background-attachment: fixed;
+}
