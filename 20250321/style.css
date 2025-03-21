@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    border: 2px solid green;
+    padding: 15px;
+    background-color: bisque;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px ;
+}
+section{
+    border-bottom: 10px solid green;
+    border-radius: 5px;
+}
+img{
+    border-radius: 50%;
+    text-align: center;
+}
