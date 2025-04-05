@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GoShopping Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- Sidebar -->
+      <nav class="col-md-2 bg-light p-3 vh-100">
+        <h5 class="mb-4" style="font-family: Fantasy;">Go Shopping</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link" href="">Reports</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Taxonomies</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Orders</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Coupons</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Customers</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Users</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Store</a></li>
+          <li class="nav-item"><a class="nav-link" href="">General</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Account</a></li>
+          <li class="nav-item mt-3"><a class="nav-link" href="">View my site</a></li>
+          
+          <li class="nav-item "><a class="nav-link text-danger" href="">Log out</a></li>
+        </ul>
+      </nav>
+
+      
+      <main class="col-md-10 p-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 style="font-family: Fantasy;">Products</h2>
+          <div>
+            <button class="btn btn-sm btn-outline-primary ">Add New</button>
+            <button class="btn btn-sm btn-outline-secondary ">Import</button>
+            <button class="btn btn-sm btn-outline-secondary">Export</button>
+          </div>
+        </div>
+
+        
+        <div class="row mb-3 g-2">
+          <div class="col-md-2">
+            <select class="form-select form-select-sm">
+              <option selected>Bulk actions</option>
+              <option>Delete</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-sm btn-outline-secondary w-100">Apply</button>
+          </div>
+          <div class="col-md-2">
+            
+          </div>
+          <div class="col-md-2">
+            <select class="form-select form-select-sm">
+              <option selected>Filter by product type</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <select class="form-select form-select-sm">
+              <option selected>Filter by stock status</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-outline-secondary w-100">Filter</button>
+          </div>
+          <div class="col-md-2">
+            <input type="text" class="form-control form-control-sm" placeholder="Search products">
+          </div>
+        </div>
+
+     
+        <table class="table table-bordered table-hover table-sm align-middle">
+          <thead class="table-light">
+            <tr>
+              <th><input type="checkbox"></th>
+              <th>Image</th>
+              <th>Name</th>
+              <th>SKU</th>
+              <th>Stock</th>
+              <th>Price</th>
+              <th>Categories</th>
+              <th>Tags</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td><img src="https://picsum.photos/30" class="img-thumbnail" alt="Sneakers"></td>
+              <td>Sneakers 01</td>
+              <td>-</td>
+              <td class="text-success">In stock</td>
+              <td>$50.00</td>
+              <td>T-shirts</td>
+              <td>Hello</td>
+              
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
